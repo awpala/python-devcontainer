@@ -24,7 +24,7 @@ git clone https://github.com/awpala/python-devcontainer.git
 > [!NOTE]  
 > Alternatively, you can download the source files from GitHub via green `<> Code` button and extract the contents into this directory instead.
 
-Next, open this repo as a VS Code, which should appear as follows:
+Next, open this repo as a VS Code project, which should appear as follows:
 
 <center>
 <img src="./assets/001-launch-devcontainer.png">
