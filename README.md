@@ -8,7 +8,7 @@ Install the following on your system before proceeding:
 * [VS Code](https://code.visualstudio.com/)
 * [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) extension pack for VS Code
 * [Docker]() extension for VS Code
-* [Docker Desktop](https://docs.docker.com/) (or equivalent Docker Engine)'
+* [Docker Desktop](https://docs.docker.com/) (or equivalent Docker Engine)
 
 > [!IMPORTANT]  
 > If either VS Code and/or Docker is already present on your system, be sure to update either/both to the most recent version before proceeding. Otherwise, if installing from scratch/initially, on successful installation, it is advisable to reboot your system before proceeding. Default options are recommended for installations (in particular, use WSL rather than Hyper-V for Docker Desktop installation on Windows; this should be the default setting in the installer already).
