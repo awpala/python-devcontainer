@@ -22,7 +22,7 @@ git clone https://github.com/awpala/python-devcontainer.git
 ```
 
 > [!NOTE]  
-> Alternatively, you can download the source files from GitHub via green `<> Code` button and extract the contents into this directory instead.
+> Alternatively, you can download the source files from GitHub via green `<> Code` button followed by `Download ZIP` and then extract the contents into this local host system directory instead.
 
 Next, open this repo as a VS Code project, which should appear as follows:
 
