@@ -1,4 +1,4 @@
-# Python Development Environment Devcontainer
+# Python Development Environment Dev Container
 
 This repo contains a [devcontainer](https://containers.dev/)-based development environment for Python via VS Code and Docker.
 
