@@ -35,7 +35,7 @@ VS Code should automatically detect the subfolder `.devcontainer` in the opened 
 > [!NOTE]  
 > If the modal disappears, you can accomplish the equivalent via `Ctrl Shift P` (or equivalently `Cmd Shift P` on macOS) to open the Command Palette, followed by search of `Dev Containers: Reopen in Container` (select this option accordingly).
 
-VS Code will reopen in the devcontainer and commence installation of dependencies (this may take a few minutes on initial launch). On successful launch, it will appears as follows:
+VS Code will reopen in the devcontainer and commence installation of dependencies (this may take a few minutes on initial launch). On successful launch, it will appear as follows:
 
 <center>
 <img src="./assets/002-init-devcontainer.png">
