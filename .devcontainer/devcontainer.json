@@ -1,0 +1,38 @@
+{
+  "name": "Python Development Environment",
+  "dockerFile": "Dockerfile",
+  "context": ".",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash",
+      },
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "oderwat.indent-rainbow",
+      ],
+    },
+  },
+  "forwardPorts": [
+    3000,
+    8888,
+  ],
+  "portsAttributes": {
+    "3000": {
+      "label": "Application",
+      "onAutoForward": "notify",
+    },
+    "8888": {
+      "label": "Jupyter Notebook",
+      "onAutoForward": "openBrowser",
+    },
+  },
+  "postCreateCommand": "pip install --upgrade pip",
+  "mounts": [
+    "source=${localWorkspaceFolder},target=/home/dev-files,type=bind",
+  ],
+  "runArgs": [
+    "--name", "python-dev-env",
+  ],
+}
