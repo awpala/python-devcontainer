@@ -105,3 +105,4 @@ VS Code
 Docker
 * [Docker Docs](https://docs.docker.com/)
 * [Docker Hub](https://hub.docker.com/) (images registry)
+* [`miniconda3`](https://hub.docker.com/r/continuumio/miniconda3) (base image)
