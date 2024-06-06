@@ -24,7 +24,7 @@ RUN echo "alias jn='jupyter notebook --ip 0.0.0.0 --port 8888 --no-browser --all
 # Ensure the conda environment is on the PATH
 ENV PATH /opt/conda/envs/${CONDA_ENV_NAME}/bin:$PATH
 
-# Set the default notebook directory to /opt/notebooks
+# Set the default notebook directory to /home/dev-files
 WORKDIR /home/dev-files
 
 # Set the default shell to bash
