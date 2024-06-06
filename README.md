@@ -92,7 +92,7 @@ If VS Code has been closed, the running devcontainer can be relaunched via the R
 
 ## Changing Default Profile
 
-The current default profile defines conda env `dev` having Python v. `3.10`. To adjust these settings, simply make corresponding changes to file [`.devcontainer/Dockerfile`](./.devcontainer/Dockerfile) (see `ARG`s entries near the top/start of the file). Furthermore, see third-party dependencies specified in [`.devcontainer/requirements.txt`](./.devcontainer/requirements.txt) for corresponding definition of cond env `dev` (i.e., for consequent modification, if so desired).
+The current default profile defines conda env `dev` having Python v. `3.12`. To adjust these settings, simply make corresponding changes to file [`.devcontainer/Dockerfile`](./.devcontainer/Dockerfile) (see `ARG`s entries near the top/start of the file). Furthermore, see third-party dependencies specified in [`.devcontainer/requirements.txt`](./.devcontainer/requirements.txt) for corresponding definition of cond env `dev` (i.e., for consequent modification, if so desired).
 
 ## Additional References
 

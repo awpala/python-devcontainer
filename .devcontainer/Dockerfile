@@ -2,7 +2,7 @@
 FROM continuumio/miniconda3
 
 # Set values for environment variables
-ARG PYTHON_VERSION=3.10
+ARG PYTHON_VERSION=3.12
 ARG CONDA_ENV_NAME=dev
 
 # Update the package list and install necessary packages
